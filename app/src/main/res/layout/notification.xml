@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/ig"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        />
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/te"
+        android:textSize="27sp"
+        android:textColor="#000000"
+         />
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/re1"
+        android:background="#00ffffff"
+        android:id="@+id/bt"
+        android:layout_marginLeft="118dp"
+        android:layout_marginTop="13dp"
+       />
+    <TextView
+        android:layout_width="23dp"
+        android:layout_height="13dp"
+        android:layout_marginLeft="295dp"
+        android:layout_marginTop="35dp"
+        android:textSize="10sp"
+        android:textColor="#000000"
+        android:id="@+id/c"
+        />
+    <TextView
+        android:layout_width="28dp"
+        android:layout_height="13dp"
+        android:layout_marginLeft="318dp"
+        android:layout_marginTop="35dp"
+        android:textSize="10sp"
+        android:textColor="#000000"
+        android:id="@+id/t"
+        />
+
+    <ImageView
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_marginLeft="285dp"
+        android:layout_marginTop="37dp"
+        android:src="@drawable/location"/>
+
+
+
+</FrameLayout>
